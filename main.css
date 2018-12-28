@@ -94,32 +94,3 @@ header {
     height: auto;
 }
 
-@media(max-width: 560px) {
-    header::after {
-        height: 50vh;
-    }
-    .content {
-        top: 5%;
-        margin-top: 5px;
-    }
-     .logo {
-        height: 140px;
-        width: 140px;
-    }
-    .text_one {
-        display: none;
-    }
-}
-
-
-/* Landscape*/
-
-@media(max-height: 500px) {
-    .content .title,
-    .content .text {
-        display: none;
-    }
-    .content {
-        top: 0;
-    }
-}
