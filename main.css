@@ -4,6 +4,7 @@
 }
 
 body {
+    width:100vh;
     font-family: monospace;
 }
 
